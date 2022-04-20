@@ -1,0 +1,132 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+}
+*{
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    position: relative;
+    margin-top: 30vh;
+    width: 336px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 25px
+}
+
+.container-top {
+    width: 100%;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFDC40;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+#btn-sort {
+    text-align: end;
+    color: #C4C4C4;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#btn-sort i:hover {
+    color: #000;
+    cursor: pointer;
+    transition: 0.3s color;
+}
+
+.todo-container {
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 12px 28px;
+}
+
+.todo-item {
+    display: flex;
+}
+
+.todo-item-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    flex: 10;
+}
+
+.todo-item-delete {
+    flex: 2;
+    text-align: right;
+    padding: 10px;
+}
+
+.todo-item-delete i {
+    color: #C4C4C4;
+    font-size: 25px;
+    /* margin-left: 10px; */
+    cursor: pointer;
+    transition: 0.3s color;
+    font-weight: lighter;
+    /* transform: translate(50%, 50%); */
+}
+
+.todo-item-delete i:hover {
+    color: #833AE0;
+    font-weight: bold;
+}
+
+.todo-add-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#btn-add {
+    width: 150px;
+    height: 42px;
+    background: #833AE0;
+    border-radius: 71px;
+    color: #fff;
+}
+
+#btn-add #btn-add-left {
+    background-color: #9953F1;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    padding: 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 10px;
+}
+
+#btn-add #btn-add-right {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 10px;
+}
+
+#todo-input{
+    width: 100%;
+    height: 38px;
+    border-radius: 70px;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+}

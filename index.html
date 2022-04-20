@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="container-top"></div>
+        <h1>To-Do List</h1>
+        <div id="btn-sort">
+            <i class="fa-solid fa-arrow-down-short-wide"></i>
+        </div>
+        <div class="todo-container">
+            <input type="text" id="todo-input" placeholder="Task to be done ">
+            <div class="todo-list">
+            </div>
+        </div>
+        <div class="todo-add-section">
+            <div id="btn-add">
+                <span id="btn-add-left">
+                    <i class="fa-solid fa-plus"></i>
+                </span>
+                <span id="btn-add-right">
+                    Добавить
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
